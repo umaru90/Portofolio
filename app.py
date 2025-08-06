@@ -98,7 +98,7 @@ elif menu == "👤 Tentang Saya":
     st.write("---")
     st.write("### Timeline Karier")
     timeline_data = [
-        {"Tahun": "2021", "Event": "Mulai Perkuliahan di Institut Teknologi Del"}
+        {"Tahun": "2021", "Event": "Mulai Perkuliahan di Institut Teknologi Del"},
         {"Tahun": "2024", "Event": "Studi Independent Bangkit Academy 2024 & Intern PT.Pelabuhan Indonesia (Pelindo)"}
     ]
     
@@ -217,4 +217,5 @@ with st.sidebar:
         file_name="CV_[Nama Anda].pdf",
         mime="application/pdf"
     )
+
 
