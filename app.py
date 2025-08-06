@@ -133,25 +133,25 @@ elif menu == "💼 Proyek":
             "deskripsi": "Digital Thermometer using LM35 Based on ATMega8535 as my project in the microcontroller systems course.",
             "teknologi": ["C", "AtMega8535"],
             "link": "https://github.com/umaru90/Digital-Thermometer-Atmega8535.git"
-        }
+        },
         {
             "nama": "Traffict Light Simulator Using VHDL",
             "deskripsi": "Traffic Light Simulation using VHDL as my project in the computer system architecture course.",
             "teknologi": ["VHDL"],
             "link": "https://github.com/umaru90/Traffict-Light-Using-VHDL.git"
-        }
+        },
         {
             "nama": "OSPF using MikroTik RB951 and GNS3",
             "deskripsi": "Network Performance Testing with OSPF and Network Topology Implementation using GNS3 and Mikrotik RB951 Router as my project in the Computer Network 2 course.",
             "teknologi": ["Mikrotik", "GNS3", "OSPF"],
             "link": "https://github.com/umaru90/OSPF-using-MikroTik-RB951-and-GNS3.git"
-        }
+        },
         {
             "nama": "Catedium App",
             "deskripsi": "Cat Identification using CNN Tensorflow (The Capstone Project that our group made during the Independent Study of Bangkit Academy 2024)",
             "teknologi": ["Python", "Kotlin", "Tensorflow", "CNN", ],
             "link": "https://github.com/umaru90/Catedium.git"
-        }
+        },
         {
             "nama": "M-Bot Robot with Hand-Gesture-Controller",
             "deskripsi": "-",
@@ -217,5 +217,6 @@ with st.sidebar:
         file_name="CV_[Nama Anda].pdf",
         mime="application/pdf"
     )
+
 
 
