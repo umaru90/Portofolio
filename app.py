@@ -44,16 +44,16 @@ menu = st.sidebar.radio(
 )
 
 if menu == "🏠 Beranda":
-    st.markdown("<h1 class='main-header'>Halo, Saya [Nama Anda]</h1>", unsafe_allow_html=True)
-    st.markdown("<p class='sub-header'>Web Developer | Problem Solver | Lifelong Learner</p>", unsafe_allow_html=True)
+    st.markdown("<h1 class='main-header'>Halo, Saya Rivaldo Elia</h1>", unsafe_allow_html=True)
+    st.markdown("<p class='sub-header'>Machine Learning | Cloud Computing | Problem Solver | Lifelong Learner</p>", unsafe_allow_html=True)
     
     col1, col2 = st.columns([2,1])
     with col1:
         st.write("""
-        ### Selamat Datang di Dunia Saya
-        Website ini adalah refleksi pribadi tentang perjalanan saya sebagai developer. 
-        Di sini Anda akan menemukan proyek-proyek yang telah saya kerjakan, 
-        keahlian yang saya miliki, dan cerita di balik setiap langkah yang saya ambil.
+        ### Selamat Datang di Portofolio Saya
+        I am an Electrical Engineering graduate with a keen interest in Technology and Programming. During my studies and various project experiences, I developed technical skills in programming (mainly using Python and C), Computer Networking, Cloud Computing, Artificial Intelligence (AI), and Internet of Things (IoT). 
+        Besides hard skills, I also have strong soft skills, such as Data Analysis, Problem Solving, and Critical Thinking. I am used to managing my time effectively, quick to learn new things, and able to work collaboratively in a team.
+        I am constantly eager to develop myself in the field of technology and am open to new opportunities that are challenging and impactful.
         """)
         
         st.write("### Quick Stats")
@@ -78,31 +78,28 @@ elif menu == "👤 Tentang Saya":
     with col2:
         st.write("""
         ### Background
-        - **Nama**: [Nama Lengkap Anda]
-        - **Profesi**: [Pekerjaan/Role Anda]
-        - **Lokasi**: [Kota, Negara]
-        - **Email**: [nama@email.com]
+        - **Nama**: Rivaldo Elia
+        - **Profesi**: Engineering
+        - **Lokasi**: Sidikalang, Sumatera Utara, Indonesia
+        - **Email**: eliarivaldo225@gmail.com
         
         ### Keahlian
-        - 🐍 **Python**: Data Science, Web Development
-        - 🌐 **Web Development**: React, Node.js, Streamlit
+        - 🐍 **Python**: Data Science
+        - 🌐 **Web Development**: Streamlit
         - 📊 **Data**: Analysis, Visualization, Machine Learning
-        - 🎨 **Design**: UI/UX, Responsive Design
         
         ### Minat
         - Teknologi terbaru dan AI
         - Fotografi dan videografi
-        - Membaca buku teknologi
-        - Berkontribusi pada open source
+        - Listening Music
+        - Drifting & Otomotive Enthusiast
         """)
     
     st.write("---")
     st.write("### Timeline Karier")
     timeline_data = [
-        {"Tahun": "2021", "Event": "Mulai belajar programming & web development"},
-        {"Tahun": "2022", "Event": "First freelance project & portfolio website"},
-        {"Tahun": "2023", "Event": "Full-time developer role & team projects"},
-        {"Tahun": "2024", "Event": "Lead developer & advanced projects"}
+        {"Tahun": "2021", "Event": "Mulai Perkuliahan di Institut Teknologi Del"}
+        {"Tahun": "2024", "Event": "Studi Independent Bangkit Academy 2024 & Intern PT.Pelabuhan Indonesia (Pelindo)"}
     ]
     
     for item in timeline_data:
@@ -114,28 +111,52 @@ elif menu == "💼 Proyek":
     
     projects = [
         {
-            "nama": "E-commerce Analytics Dashboard",
-            "deskripsi": "Dashboard interaktif untuk analisis penjualan dengan visualisasi data real-time menggunakan Python dan Streamlit",
-            "teknologi": ["Python", "Pandas", "Plotly", "Streamlit", "SQL"],
-            "link": "https://github.com/username/ecommerce-dashboard"
+            "nama": "Car-Dealer-in-Python",
+            "deskripsi": "Car Dealer Application using Python as my project for the Programming 2 (Python) course.",
+            "teknologi": ["Python"],
+            "link": "https://github.com/umaru90/Car-Dealer-in-Python.git"
         },
         {
-            "nama": "Personal Blog Platform",
-            "deskripsi": "Blog pribadi dengan tema minimalis, responsive design, dan optimasi SEO menggunakan React dan Next.js",
-            "teknologi": ["React", "Next.js", "Tailwind CSS", "Markdown"],
-            "link": "https://github.com/username/personal-blog"
+            "nama": "Air Quality Data Analytics ",
+            "deskripsi": "Simulasi menjadi Data Analytics menggunakan Python selama MBKM Independent Study at Bangkit Academy 2024.",
+            "teknologi": ["Python", "Pandas", "Matplotlib", "Streamlit", "Seaborn", "Numpy", "Babel"],
+            "link": "https://github.com/umaru90/Air-Quality-Dataset.git"
         },
         {
-            "nama": "Weather Forecast App",
-            "deskripsi": "Aplikasi cuaca real-time dengan prediksi 7 hari ke depan menggunakan API eksternal",
-            "teknologi": ["JavaScript", "React", "OpenWeather API", "Chart.js"],
-            "link": "https://github.com/username/weather-app"
+            "nama": "Brazillian E-Commerce Public Data Analytics",
+            "deskripsi": "Simulasi menjadi Data Analytics menggunakan Python selama MBKM Independent Study at Bangkit Academy 2024.",
+            "teknologi": ["Python", "Pandas", "Matplotlib", "Streamlit", "Seaborn", "Numpy", "Babel"],
+            "link": "https://github.com/umaru90/Brazillian-E-Commerce-Public-Dataset.git"
         },
         {
-            "nama": "Task Management System",
-            "deskripsi": "Sistem manajemen tugas dengan fitur kolaborasi tim dan notifikasi real-time",
-            "teknologi": ["Python", "Flask", "PostgreSQL", "Socket.io"],
-            "link": "https://github.com/username/task-manager"
+            "nama": "Digital Thermometer using Atmega 8535",
+            "deskripsi": "Digital Thermometer using LM35 Based on ATMega8535 as my project in the microcontroller systems course.",
+            "teknologi": ["C", "AtMega8535"],
+            "link": "https://github.com/umaru90/Digital-Thermometer-Atmega8535.git"
+        }
+        {
+            "nama": "Traffict Light Simulator Using VHDL",
+            "deskripsi": "Traffic Light Simulation using VHDL as my project in the computer system architecture course.",
+            "teknologi": ["VHDL"],
+            "link": "https://github.com/umaru90/Traffict-Light-Using-VHDL.git"
+        }
+        {
+            "nama": "OSPF using MikroTik RB951 and GNS3",
+            "deskripsi": "Network Performance Testing with OSPF and Network Topology Implementation using GNS3 and Mikrotik RB951 Router as my project in the Computer Network 2 course.",
+            "teknologi": ["Mikrotik", "GNS3", "OSPF"],
+            "link": "https://github.com/umaru90/OSPF-using-MikroTik-RB951-and-GNS3.git"
+        }
+        {
+            "nama": "Catedium App",
+            "deskripsi": "Cat Identification using CNN Tensorflow (The Capstone Project that our group made during the Independent Study of Bangkit Academy 2024)",
+            "teknologi": ["Python", "Kotlin", "Tensorflow", "CNN", ],
+            "link": "https://github.com/umaru90/Catedium.git"
+        }
+        {
+            "nama": "M-Bot Robot with Hand-Gesture-Controller",
+            "deskripsi": "-",
+            "teknologi": ["Python", "Leap Motion", "A* Algorithm", "Manhattan", "Pyserial", "MATLAB"],
+            "link": "https://github.com/umaru90/M-Bot_Robot_with_Leap_Motion_Controller.git"
         }
     ]
     
@@ -162,11 +183,10 @@ elif menu == "📞 Kontak":
     with col1:
         st.write("### Informasi Kontak")
         st.write("""
-        - 📧 **Email**: [namaanda@email.com](mailto:namaanda@email.com)
-        - 💼 **LinkedIn**: [linkedin.com/in/username](https://linkedin.com/in/username)
-        - 🐦 **Twitter**: [@username](https://twitter.com/username)
-        - 🐙 **GitHub**: [github.com/username](https://github.com/username)
-        - 📱 **WhatsApp**: [+62xxx-xxxx-xxxx](https://wa.me/62xxxxxxxx)
+        - 📧 **Email**: [eliarivaldo225@gmail.com](mailto:namaanda@email.com)
+        - 💼 **LinkedIn**: [linkedin.com/in/Rivaldo Elia](https://linkedin.com/in/username)
+        - 🐙 **GitHub**: [github.com/umaru90](https://github.com/username)
+        - 📱 **WhatsApp**: [+62-858-0979-3305](https://wa.me/62xxxxxxxx)
         """)
     
     with col2:
@@ -186,8 +206,7 @@ elif menu == "📞 Kontak":
 
 # Footer
 st.sidebar.markdown("---")
-st.sidebar.markdown("### Dibuat dengan ❤️ menggunakan Streamlit")
-st.sidebar.markdown("© 2024 [Nama Anda]")
+st.sidebar.markdown("© 2024 Rivaldo Elia")
 
 # Tambahan: Download CV
 with st.sidebar:
@@ -198,3 +217,4 @@ with st.sidebar:
         file_name="CV_[Nama Anda].pdf",
         mime="application/pdf"
     )
+
