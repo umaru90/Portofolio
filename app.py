@@ -59,9 +59,9 @@ if menu == "🏠 Beranda":
         st.write("### Quick Stats")
         col_stats1, col_stats2, col_stats3 = st.columns(3)
         with col_stats1:
-            st.metric("Proyek Selesai", "5+")
+            st.metric("Proyek Selesai", "8")
         with col_stats2:
-            st.metric("Tahun Pengalaman", "3")
+            st.metric("Tahun Pengalaman", "4")
         with col_stats3:
             st.metric("Bahasa Pemrograman", "4")
     
@@ -217,6 +217,7 @@ with st.sidebar:
         file_name="CV_[Nama Anda].pdf",
         mime="application/pdf"
     )
+
 
 
 
