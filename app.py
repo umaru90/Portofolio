@@ -217,8 +217,3 @@ with st.sidebar:
         file_name="Elia Rivaldo Pasaribu-resume.pdf",
         mime="application/pdf"
     )
-
-
-
-
-
