@@ -214,9 +214,10 @@ with st.sidebar:
     st.download_button(
         label="Download CV (PDF)",
         data="Ini adalah contoh CV. Ganti dengan file PDF Anda yang sebenarnya.",
-        file_name="CV_[Nama Anda].pdf",
+        file_name="Elia Rivaldo Pasaribu-resume.pdf",
         mime="application/pdf"
     )
+
 
 
 
